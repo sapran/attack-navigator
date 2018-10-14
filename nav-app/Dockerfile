@@ -10,6 +10,6 @@ COPY . ./
 # install packages and build 
 RUN npm install && npm rebuild node-sass --force
 
-EXPOSE 4200
+EXPOSE 9200
 
 CMD npm start
